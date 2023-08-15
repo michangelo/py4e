@@ -355,13 +355,13 @@ In general, error messages tell you where the problem was discovered, but that i
 
 **chained conditional**: A conditional statement with a series of alternative branches.
 
-**comparison operator**: One of the operators that compares its operands: ==, !=, >, <, >=, and <=.
+**comparison operator**: One of the operators that compares its operands: `==`, `!=`, `>`, `<`, `>=`, and `<=`.
 
 **conditional statement**: A statement that controls the flow of execution depending on some condition.
 
 **condition**: The boolean expression in a conditional statement that determines which branch is executed.
 
-**compound statement**: A statement that consists of a header and a body. The header ends with a colon (:). The body is indented relative to the header.
+**compound statement**: A statement that consists of a header and a body. The header ends with a colon (`:`). The body is indented relative to the header.
 
 **guardian pattern**: Where we construct a logical expression with additional comparisons to take advantage of the short-circuit behavior.
 
