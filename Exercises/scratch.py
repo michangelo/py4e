@@ -139,7 +139,7 @@ def exercise_4_6():
     p = computepay(h*r)
     print("Pay", p)
 
-exercise_4_6()
+computepay(h, r) 
 
 
     
