@@ -1,53 +1,55 @@
-# Lesson 1 Notes: Why Program? 
+# Lesson 1 Notes: Why Program?
 
-### Course Objective.
+## Course Objective.
 The objective of this course is to teach students the basics of the python programming language. By the end of the course, students will be able to: 
 - write simple python programs
 - use python to manipulate data 
 - work with files and databases
 - use python to solve problems 
 
-### Course Goal.
+## Course Goal.
 The goal of this course is to help students develop the skills they need to be successful in using python for personal and professional use. By the end of the course, students will be able to: 
 - Understand the basics of python syntax 
 - Use python to solve real world problems
 - Communicate effectively about python programming 
 
-### Key Terms and Vocabulary.
+## Key Terms and Vocabulary.
 
->Python: general-purpose programming language that is used for a wide variety of tasks, including data analysis, web dev, and machine learning.
+Python: general-purpose programming language that is used for a wide variety of tasks, including data analysis, web dev, and machine learning.
 
-> Programming language: set of instructions that tells a computer what to do. 
+**Programming language**: set of instructions that tells a computer what to do.
 
- >Syntax: set of rules that govern how a programming language is written. 
+ **Syntax**: set of rules that govern how a programming language is written.
 
- >Variables: containers that store data. 
+ **Variables**: containers that store data.
 
->Data types: different types of data that can be stored in variables. 
+**Data types**: different types of data that can be stored in variables.
 
- >   Operators: symbols that are used to perform operations on data. 
+**Operators**: symbols that are used to perform operations on data.
 
-  >  Statements: instructions that tell the computer to do something. 
+**Statements**: instructions that tell the computer to do something.
 
-  >  Functions: blocks of code that can be reused. 
+**Functions**: blocks of code that can be reused.
 
-   > Modules: collections of functions and variables. 
+**Modules**: collections of functions and variables.
 
->Libraries: collections of modules. 
+**Libraries**: collections of modules.
 
->Algorithms: step-by-step procedures for solving problems. 
+**Algorithms**: step-by-step procedures for solving problems.
 
-   >Data Structures: ways of organizing data. 
+**Data Structures**: ways of organizing data.
 
-   >Graphical user interface (GUI): way of interacting with a computer using a mouse and keyboard. 
+**Graphical user interface (GUI)**: way of interacting with a computer using a mouse and keyboard.
 
-   >File: named collection of data that is stored on a computer. 
+**File**: named collection of data that is stored on a computer.
 
-   >Database: collection of data that is organized in a way that makes it easy to retrieve and use. 
+**Database**: collection of data that is organized in a way that makes it easy to retrieve and use.
 
-### Why should you learn to write programs? 
+## Why should you learn to write programs?
+
 Why program - part 1
-https://youtu.be/fvhNadKjE8g
+
+<https://youtu.be/fvhNadKjE8g>
 
 Writing programs (or programming) is a very creative and rewarding activity. You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem. This book assumes that everyone needs to know how to program, and that once you know how to program you will figure out what you want to do with your newfound skills.
 
@@ -71,9 +73,11 @@ Our "personal information analysis assistant" quickly told us that the word "to"
 This very fact that computers are good at things that humans are not is why you need to become skilled at talking "computer language". Once you learn this new language, you can delegate mundane tasks to your partner (the computer), leaving more time for you to do the things that you are uniquely suited for. You bring creativity, intuition, and inventiveness to this partnership.
 
 Video: Why Program - Part 2
-https://www.youtube.com/watch?v=VQZTZsXk8sA
 
-### Creativity and motivation
+<https://www.youtube.com/watch?v=VQZTZsXk8sA>
+
+## Creativity and motivation
+
 While this book is not intended for professional programmers, professional programming can be a very rewarding job both financially and personally. Building useful, elegant, and clever programs for others to use is a very creative activity. Your computer or Personal Digital Assistant (PDA) usually contains many different programs from many different groups of programmers, each competing for your attention and interest. They try their best to meet your needs and give you a great user experience in the process. In some situations, when you choose a piece of software, the programmers are directly compensated because of your choice.
 
 If we think of programs as the creative output of groups of programmers, perhaps the following figure is a more sensible version of our PDA:
@@ -82,45 +86,49 @@ Programmers Talking to You
 
 For now, our primary motivation is not to make money or please end users, but instead for us to be more productive in handling the data and information that we will encounter in our lives. When you first start, you will be both the programmer and the end user of your programs. As you gain skill as a programmer and programming feels more creative to you, your thoughts may turn toward developing programs for others.
 
-### Computer Hardware Architecture
+## Computer Hardware Architecture
+
 ![Alt text](image-2.png)
 Hardware Architecture
 
 The high-level definitions of these parts are as follows:
 
-> The Central Processing Unit (or CPU) is the part of the computer that is built to be obsessed with "what is next?" If your computer is rated at 3.0 Gigahertz, it means that the CPU will ask "What next?" three billion times per second. You are going to have to learn how to talk fast to keep up with the CPU.
+- The Central Processing Unit (or CPU) is the part of the computer that is built to be obsessed with "what is next?" If your computer is rated at 3.0 Gigahertz, it means that the CPU will ask "What next?" three billion times per second. You are going to have to learn how to talk fast to keep up with the CPU.
 
->The Main Memory is used to store information that the CPU needs in a hurry. The main memory is nearly as fast as the CPU. But the information stored in the main memory vanishes when the computer is turned off.
+- The **Main Memory** is used to store information that the CPU needs in a hurry. The main memory is nearly as fast as the CPU. But the information stored in the main memory vanishes when the computer is turned off.
 
->The Secondary Memory is also used to store information, but it is much slower than the main memory. The advantage of the secondary memory is that it can store information even when there is no power to the computer. Examples of secondary memory are disk drives or flash memory (typically found in USB sticks and portable music players).
+- The **Secondary Memory** is also used to store information, but it is much slower than the main memory. The advantage of the secondary memory is that it can store information even when there is no power to the computer. Examples of secondary memory are disk drives or flash memory (typically found in USB sticks and portable music players).
 
->The Input and Output Devices are simply our screen, keyboard, mouse, microphone, speaker, touchpad, etc. They are all of the ways we interact with the computer.
+- The **Input and Output Devices** are simply our screen, keyboard, mouse, microphone, speaker, touchpad, etc. They are all of the ways we interact with the computer.
 
->These days, most computers also have a Network Connection to retrieve information over a network. We can think of the network as a very slow place to store and retrieve data that might not always be "up". So in a sense, the network is a slower and at times unreliable form of Secondary Memory.
+- These days, most computers also have a **Network Connection** to retrieve information over a network. We can think of the network as a very slow place to store and retrieve data that might not always be "up". So in a sense, the network is a slower and at times unreliable form of Secondary Memory.
 
 While most of the detail of how these components work is best left to computer builders, it helps to have some terminology so we can talk about these different parts as we write our programs.
 
-As a programmer, your job is to use and orchestrate each of these resources to solve the problem that you need to solve and analyze the data you get from the solution. As a programmer you will mostly be "talking" to the CPU and telling it what to do next. Sometimes you will tell the CPU to use the main memory, secondary memory, network, or the input/output devices.
+As a *programmer*, your job is to use and orchestrate each of these resources to solve the problem that you need to solve and analyze the data you get from the solution. As a programmer you will mostly be "talking" to the CPU and telling it what to do next. Sometimes you will tell the CPU to use the main memory, secondary memory, network, or the input/output devices.
 
 ![Alt text](image-3.png)
 Where Are You?
 
 You need to be the person who answers the CPU's "What next?" question. But it would be very uncomfortable to shrink you down to 5mm tall and insert you into the computer just so you could issue a command three billion times per second. So instead, you must write down your instructions in advance. We call these stored instructions a program and the act of writing these instructions down and getting the instructions to be correct programming.
 
-### Understanding Programming
+## Understanding Programming
+
 Video: What happens when the CPU cooler is removed?
-https://www.youtube.com/watch?v=y39D4529FM4
+
+<https://www.youtube.com/watch?v=y39D4529FM4>
 
 Video: Inside of Hard Drive
-https://www.youtube.com/watch?v=9eMWG3fwiEU
+
+<https://www.youtube.com/watch?v=9eMWG3fwiEU>
 
 In the rest of this book, we will try to turn you into a person who is skilled in the art of programming. In the end you will be a programmer - perhaps not a professional programmer, but at least you will have the skills to look at a data/information analysis problem and develop a program to solve the problem.
 
 In a sense, you need two skills to be a programmer:
 
->First, you need to know the programming language (Python) - you need to know the vocabulary and the grammar. You need to be able to spell the words in this new language properly and know how to construct well-formed "sentences" in this new language.
+- First, you need to know the programming language (Python) - you need to know the vocabulary and the grammar. You need to be able to spell the words in this new language properly and know how to construct well-formed "sentences" in this new language.
 
-> Second, you need to "tell a story". In writing a story, you combine words and sentences to convey an idea to the reader. There is a skill and art in constructing the story, and skill in story writing is improved by doing some writing and getting some feedback. In programming, our program is the "story" and the problem you are trying to solve is the "idea".
+- Second, you need to "tell a story". In writing a story, you combine words and sentences to convey an idea to the reader. There is a skill and art in constructing the story, and skill in story writing is improved by doing some writing and getting some feedback. In programming, our program is the "story" and the problem you are trying to solve is the "idea".
 
 Once you learn one programming language such as Python, you will find it much easier to learn a second programming language such as JavaScript or C++. The new programming language has very different vocabulary and grammar but the problem-solving skills will be the same across all programming languages.
 
@@ -128,7 +136,7 @@ You will learn the "vocabulary" and "sentences" of Python pretty quickly. It wil
 
 We start with the vocabulary and structure of Python programs. Be patient as the simple examples remind you of when you started reading for the first time.
 
-### Words and Sentences. 
+## Words and Sentences
 
 Unlike human languages, the Python vocabulary is actually pretty small. We call this "vocabulary" the "reserved words". These are words that have very special meaning to Python. When Python sees these words in a Python program, they have one and only one meaning to Python. Later as you write programs you will make up your own words that have meaning to you called variables. You will have great latitude in choosing your names for your variables, but you cannot use any of Python's reserved words as a name for a variable.
 
@@ -152,9 +160,11 @@ We will learn these reserved words and how they are used in good time, but for n
 
 And we have even written our first syntactically correct Python sentence. Our sentence starts with the function print followed by a string of text of our choosing enclosed in single quotes. The strings in the print statements are enclosed in quotes. Single quotes and double quotes do the same thing; most people use single quotes except in cases like this where a single quote (which is also an apostrophe) appears in the string.
 
-### Conversing with Python. 
+## Conversing with Python
+
 Video: Why Program - Part 3
-https://www.youtube.com/watch?v=LLzFNlCjTSo
+
+<https://www.youtube.com/watch?v=LLzFNlCjTSo>
 
 Now that we have a word and a simple sentence that we know in Python, we need to know how to start a conversation with Python to test our new language skills.
 
@@ -219,7 +229,8 @@ You will notice that the error is different for the first two incorrect attempts
 
 The proper way to say "good-bye" to Python is to enter quit() at the interactive chevron >>> prompt. It would have probably taken you quite a while to guess that one, so having a book handy probably will turn out to be helpful.
 
-### Terminology: Interpreter and Compiler
+## Terminology: Interpreter and Compiler
+
 Python is a high-level language intended to be relatively straightforward for humans to read and write and for computers to read and process. Other high-level languages include Java, C++, PHP, Ruby, Basic, Perl, JavaScript, and many more. The actual hardware inside the Central Processing Unit (CPU) does not understand any of these high-level languages.
 
 The CPU understands a language we call machine language. Machine language is very simple and frankly very tiresome to write because it is represented all in zeros and ones:
@@ -272,7 +283,8 @@ The Python interpreter is written in a high-level language called "C". You can l
 
 That is more than you really need to know to be a Python programmer, but sometimes it pays to answer those little nagging questions right at the beginning.
 
-### Writing a Program. 
+## Writing a Program
+
 Typing commands into the Python interpreter is a great way to experiment with Python's features, but it is not recommended for solving more complex problems.
 
 When we want to write a program, we use a text editor to write the Python instructions into a file, which is called a script. By convention, Python scripts have names that end with .py.
@@ -290,7 +302,8 @@ We call the Python interpreter and tell it to read its source code from the file
 
 You will notice that there was no need to have quit() at the end of the Python program in the file. When Python is reading your source code from a file, it knows to stop when it reaches the end of the file.
 
-### What is a Program?
+## What is a Program?
+
 The definition of a program at its most basic is a sequence of Python statements that have been crafted to do something. Even our simple hello.py script is a program. It is a one-line program and is not particularly useful, but in the strictest definition, it is a Python program.
 
 It might be easiest to understand what a program is by thinking about a problem that a program might be built to solve, and then looking at a program that would solve that problem.
@@ -312,31 +325,34 @@ You don't even need to know Python to use this program. You will need to get thr
 
 This is a good example of how Python and the Python language are acting as an intermediary between you (the end user) and me (the programmer). Python is a way for us to exchange useful instruction sequences (i.e., programs) in a common language that can be used by anyone who installs Python on their computer. So neither of us are talking to Python, instead we are communicating with each other through Python.
 
-### The Building Blocks of Programs. 
+## The Building Blocks of Programs
+
 Video: Why Program - Part 4  
-https://www.youtube.com/watch?v=gsry2SYOFCw
+
+<https://www.youtube.com/watch?v=gsry2SYOFCw>
 
 In the next few chapters, we will learn more about the vocabulary, sentence structure, paragraph structure, and story structure of Python. We will learn about the powerful capabilities of Python and how to compose those capabilities together to create useful programs.
 
 There are some low-level conceptual patterns that we use to construct programs. These constructs are not just for Python programs, they are part of every programming language from machine language up to the high-level languages.
 
-> input: Get data from the "outside world". This might be reading data from a file, or even some kind of sensor like a microphone or GPS. In our initial programs, our input will come from the user typing data on the keyboard.
+- **input**: Get data from the "outside world". This might be reading data from a file, or even some kind of sensor like a microphone or GPS. In our initial programs, our input will come from the user typing data on the keyboard.
 
-> output: Display the results of the program on a screen or store them in a file or perhaps write them to a device like a speaker to play music or speak text.
+- **output**: Display the results of the program on a screen or store them in a file or perhaps write them to a device like a speaker to play music or speak text.
 
->sequential execution: Perform statements one after another in the order they are encountered in the script.
+- **sequential execution**: Perform statements one after another in the order they are encountered in the script.
 
->conditional execution: Check for certain conditions and then execute or skip a sequence of statements.
+- **conditional execution**: Check for certain conditions and then execute or skip a sequence of statements.
 
->repeated execution: Perform some set of statements repeatedly, usually with some variation.
+- **repeated execution**: Perform some set of statements repeatedly, usually with some variation.
 
->reuse: Write a set of instructions once and give them a name and then reuse those instructions as needed throughout your program.
+- **reuse**: Write a set of instructions once and give them a name and then reuse those instructions as needed throughout your program.
 
 It sounds almost too simple to be true, and of course it is never so simple. It is like saying that walking is simply "putting one foot in front of the other". The "art" of writing a program is composing and weaving these basic elements together many times over to produce something that is useful to its users.
 
 The word counting program above directly uses all of these patterns except for one.
 
-### What Could Possibly Go Wrong?
+## What Could Possibly Go Wrong?
+
 As we saw in our earliest conversations with Python, we must communicate very precisely when we write Python code. The smallest deviation or mistake will cause Python to give up looking at your program.
 
 Beginning programmers often take the fact that Python leaves no room for errors as evidence that Python is mean, hateful, and cruel. While Python seems to like everyone else, Python knows them personally and holds a grudge against them. Because of this grudge, Python takes our perfectly written programs and rejects them as "unfit" just to torment us.
@@ -363,32 +379,31 @@ Beginning programmers often take the fact that Python leaves no room for errors 
     SyntaxError: invalid syntax
     >>>
 
-
 There is little to be gained by arguing with Python. It is just a tool. It has no emotions and it is happy and ready to serve you whenever you need it. Its error messages sound harsh, but they are just Python's call for help. It has looked at what you typed, and it simply cannot understand what you have entered.
 
 Python is much more like a dog, loving you unconditionally, having a few key words that it understands, looking you with a sweet look on its face (>>>), and waiting for you to say something it understands. When Python says "SyntaxError: invalid syntax", it is simply wagging its tail and saying, "You seemed to say something but I just don't understand what you meant, but please keep talking to me (>>>)."
 
 As your programs become increasingly sophisticated, you will encounter three general types of errors:
 
->Syntax errors: These are the first errors you will make and the easiest to fix. A syntax error means that you have violated the "grammar" rules of Python. Python does its best to point right at the line and character where it noticed it was confused. The only tricky bit of syntax errors is that sometimes the mistake that needs fixing is actually earlier in the program than where Python noticed it was confused. So the line and character that Python indicates in a syntax error may just be a starting point for your investigation.
+- **Syntax errors**: These are the first errors you will make and the easiest to fix. A syntax error means that you have violated the "grammar" rules of Python. Python does its best to point right at the line and character where it noticed it was confused. The only tricky bit of syntax errors is that sometimes the mistake that needs fixing is actually earlier in the program than where Python noticed it was confused. So the line and character that Python indicates in a syntax error may just be a starting point for your investigation.
 
->Logic errors: A logic error is when your program has good syntax but there is a mistake in the order of the statements or perhaps a mistake in how the statements relate to one another. A good example of a logic error might be, "take a drink from your water bottle, put it in your backpack, walk to the library, and then put the top back on the bottle."
+- **Logic errors**: A logic error is when your program has good syntax but there is a mistake in the order of the statements or perhaps a mistake in how the statements relate to one another. A good example of a logic error might be, "take a drink from your water bottle, put it in your backpack, walk to the library, and then put the top back on the bottle."
 
->Semantic errors: A semantic error is when your description of the steps to take is syntactically perfect and in the right order, but there is simply a mistake in the program. The program is perfectly correct but it does not do what you intended for it to do. A simple example would be if you were giving a person directions to a restaurant and said, "...when you reach the intersection with the gas station, turn left and go one mile and the restaurant is a red building on your left." Your friend is very late and calls you to tell you that they are on a farm and walking around behind a barn, with no sign of a restaurant. Then you say "did you turn left or right at the gas station?" and they say, "I followed your directions perfectly, I have them written down, it says turn left and go one mile at the gas station." Then you say, "I am very sorry, because while my instructions were syntactically correct, they sadly contained a small but undetected semantic error.".
+- **Semantic errors**: A semantic error is when your description of the steps to take is syntactically perfect and in the right order, but there is simply a mistake in the program. The program is perfectly correct but it does not do what you intended for it to do. A simple example would be if you were giving a person directions to a restaurant and said, "...when you reach the intersection with the gas station, turn left and go one mile and the restaurant is a red building on your left." Your friend is very late and calls you to tell you that they are on a farm and walking around behind a barn, with no sign of a restaurant. Then you say "did you turn left or right at the gas station?" and they say, "I followed your directions perfectly, I have them written down, it says turn left and go one mile at the gas station." Then you say, "I am very sorry, because while my instructions were syntactically correct, they sadly contained a small but undetected semantic error.".
 
 Again in all three types of errors, Python is merely trying its hardest to do exactly what you have asked.
 
-### Debugging
+## Debugging
 
 When Python spits out an error or even when it gives you a result that is different from what you had intended, then begins the hunt for the cause of the error. Debugging is the process of finding the cause of the error in your code. When you are debugging a program, and especially if you are working on a hard bug, there are four things to try:
 
->reading: Examine your code, read it back to yourself, and check that it says what you meant to say.
+- **reading**: Examine your code, read it back to yourself, and check that it says what you meant to say.
 
->running: Experiment by making changes and running different versions. Often if you display the right thing at the right place in the program, the problem becomes obvious, but sometimes you have to spend some time to build scaffolding.
+- **running**: Experiment by making changes and running different versions. Often if you display the right thing at the right place in the program, the problem becomes obvious, but sometimes you have to spend some time to build scaffolding.
 
->ruminating: Take some time to think! What kind of error is it: syntax, runtime, semantic? What information can you get from the error messages, or from the output of the program? What kind of error could cause the problem you're seeing? What did you change last, before the problem appeared?
+- **ruminating**: Take some time to think! What kind of error is it: syntax, runtime, semantic? What information can you get from the error messages, or from the output of the program? What kind of error could cause the problem you're seeing? What did you change last, before the problem appeared?
 
->retreating: At some point, the best thing to do is back off, undoing recent changes, until you get back to a program that works and that you understand. Then you can start rebuilding.
+- **retreating**: At some point, the best thing to do is back off, undoing recent changes, until you get back to a program that works and that you understand. Then you can start rebuilding.
 
 Beginning programmers sometimes get stuck on one of these activities and forget the others. Finding a hard bug requires reading, running, ruminating, and sometimes retreating. If you get stuck on one of these activities, try the others. Each activity comes with its own failure mode.
 
@@ -404,7 +419,8 @@ But even the best debugging techniques will fail if there are too many errors, o
 
 Beginning programmers are often reluctant to retreat because they can't stand to delete a line of code (even if it's wrong). If it makes you feel better, copy your program into another file before you start stripping it down. Then you can paste the pieces back in a little bit at a time.
 
-### The Learning Journey. 
+## The Learning Journey
+
 As you progress through the rest of the book, don't be afraid if the concepts don't seem to fit together well the first time. When you were learning to speak, it was not a problem for your first few years that you just made cute gurgling noises. And it was OK if it took six months for you to move from simple vocabulary to simple sentences and took 5-6 more years to move from sentences to paragraphs, and a few more years to be able to write an interesting complete short story on your own.
 
 We want you to learn Python much more rapidly, so we teach it all at the same time over the next few chapters. But it is like learning a new language that takes time to absorb and understand before it feels natural. That leads to some confusion as we visit and revisit topics to try to get you to see the big picture while we are defining the tiny fragments that make up that big picture. While the book is written linearly, and if you are taking a course it will progress in a linear fashion, don't hesitate to be very nonlinear in how you approach the material. Look forwards and backwards and read with a light touch. By skimming more advanced material without fully understanding the details, you can get a better understanding of the "why?" of programming. By reviewing previous material and even redoing earlier exercises, you will realize that you actually learned a lot of material even if the material you are currently staring at seems a bit impenetrable.
@@ -413,46 +429,48 @@ Usually when you are learning your first programming language, there are a few w
 
 If something seems particularly hard, there is usually no value in staying up all night and staring at it. Take a break, take a nap, have a snack, explain what you are having a problem with to someone (or perhaps your dog), and then come back to it with fresh eyes. I assure you that once you learn the programming concepts in the book you will look back and see that it was all really easy and elegant and it simply took you a bit of time to absorb it.
 
-### Glossary. 
->bug: An error in a program.
+## Glossary
 
->central processing unit: The heart of any computer. It is what runs the software that we write; also called "CPU" or "the processor".
+- **bug**: An error in a program.
 
->compile: To translate a program written in a high-level language into a low-level language all at once, in preparation for later execution.
+- **central processing unit**: The heart of any computer. It is what runs the software that we write; also called "CPU" or "the processor".
 
->high-level language: A programming language like Python that is designed to be easy for humans to read and write.
+- **compile**: To translate a program written in a high-level language into a low-level language all at once, in preparation for later execution.
 
->interactive mode: A way of using the Python interpreter by typing commands and expressions at the prompt.
+- **high-level language**: A programming language like Python that is designed to be easy for humans to read and write.
 
->interpret: To execute a program in a high-level language by translating it one line at a time.
+- **interactive mode**: A way of using the Python interpreter by typing commands and expressions at the prompt.
 
->low-level language: A programming language that is designed to be easy for a computer to execute; also called "machine code" or "assembly language".
+- **interpret**: To execute a program in a high-level language by translating it one line at a time.
 
->machine code: The lowest-level language for software, which is the language that is directly executed by the central processing unit (CPU).
+- **low-level language**: A programming language that is designed to be easy for a computer to execute; also called "machine code" or "assembly language".
 
->main memory: Stores programs and data. Main memory loses its information when the power is turned off.
+- **machine code**: The lowest-level language for software, which is the language that is directly executed by the central processing unit (CPU).
 
->parse: To examine a program and analyze the syntactic structure.
+- **main memory**: Stores programs and data. Main memory loses its information when the power is turned off.
 
->portability: A property of a program that can run on more than one kind of computer.
+- **parse**: To examine a program and analyze the syntactic structure.
 
->print function: An instruction that causes the Python interpreter to display a value on the screen.
+- **portability**: A property of a program that can run on more than one kind of computer.
 
->problem solving: The process of formulating a problem, finding a solution, and expressing the solution.
+- **print function**: An instruction that causes the Python interpreter to display a value on the screen.
 
->program: A set of instructions that specifies a computation.
+- **problem solving**: The process of formulating a problem, finding a solution, and expressing the solution.
 
->prompt: When a program displays a message and pauses for the user to type some input to the program.
+- **program**: A set of instructions that specifies a computation.
 
->secondary memory: Stores programs and data and retains its information even when the power is turned off. Generally slower than main memory. Examples of secondary memory include disk drives and flash memory in USB sticks.
+- **prompt**: When a program displays a message and pauses for the user to type some input to the program.
 
->semantics: The meaning of a program.
+- **secondary memory**: Stores programs and data and retains its information even when the power is turned off. Generally slower than main memory. Examples of secondary memory include disk drives and flash memory in USB sticks.
 
->semantic error: An error in a program that makes it do something other than what the programmer intended.
+- **semantics**: The meaning of a program.
 
->source code: A program in a high-level language.
+- **semantic error**: An error in a program that makes it do something other than what the programmer intended.
 
-### Exercises.
+- **source code**: A program in a high-level language.
+
+## Exercises
+
 Graded Assignments and GitHub  
 The following assignment will explain more about GitHub, which you will be using to submit your graded assignments. Accept the assignment in the GitHub Classroom.
 
@@ -515,7 +533,6 @@ x = 43
 x = x - 1
 print(x)
 ```
-
 a) 43  
 **b) 42**  
 c) x + 1  
@@ -534,4 +551,4 @@ Exercise 9
 How do you fix a "Syntax Error"?
 - Investigate the error type and debug. 
 
-### END - Lesson 1 
+# END - Lesson 1
