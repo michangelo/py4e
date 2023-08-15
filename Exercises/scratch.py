@@ -124,6 +124,21 @@ def exercise_3_3():
 
 # exercise_3_3() 
 
+# -----------------GRADED 
+def exercise_4_6():
+    def computepay(h, r):
+
+        if h > 40:
+            return ((h*40) + ((h-40)+r*1.5))
+        else:
+            return (h*r)
+    
+    h = input("Enter Hours:")
+    r = float(input("Enter rate per hour:")) 
+    p = computepay(h*r)
+    print("Pay", p)
+
+exercise_4_6()
 
 
     
