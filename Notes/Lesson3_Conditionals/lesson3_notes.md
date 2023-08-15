@@ -268,9 +268,245 @@ Enter Fahrenheit Temperature:fred
 Please enter a number
 ```
 
-Handling an exception with a `try` statement is called *catching* an exception. In this example, the `except` clause prints an error message. In general, catching an exception gives you a chance to fix the problem, or try again, or at least end the program gracefully.
+Handling an exception with a `try` statement is called *catching* an exception. In this example, the `except` clause prints an error message. In general, catching an exception gives you a chance to fix the problem, or try again, or at least end the pr]ogram gracefully.
 
 ## Short-Circuit Evaluation of Logical Expressions
 
+When Python is processing a logical expression such as `x >= 2 and (x/y) > 2`, it evaluates the expression from left to right. Because of the definition of `and`, if `x` is less than 2, the expression `x >= 2` is `False` and so the whole expression is `False` regardless of whether `(x/y) > 2` evaluates to `True` or `False`.
 
+When Python detects that there is nothing to be gained by evaluating the rest of a logical expression, it stops its evaluation and does not do the computations in the rest of the logical expression. When the evaluation of a logical expression stops because the overall value is already known, it is called *short-circuiting* the evaluation.
 
+While this may seem like a fine point, the short-circuit behavior leads to a clever technique called the *guardian pattern*. Consider the following code sequence in the Python interpreter:
+
+```py
+>>> x = 6
+>>> y = 2
+>>> x >= 2 and (x/y) > 2
+True
+>>> x = 1
+>>> y = 0
+>>> x >= 2 and (x/y) > 2
+False
+>>> x = 6
+>>> y = 0
+>>> x >= 2 and (x/y) > 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>>
+```
+
+The third calculation failed because Python was evaluating (`x/y`) and `y` was zero, which causes a runtime error. But the first and the second examples *did not* fail because in the first calculation `y` was non zero and in the second one the first part of these expressions `x >= 2` evaluated to `False` so the (`x/y`) was not ever executed due to the *short-circuit* rule and there was no error.
+
+We can construct the logical expression to strategically place a *guard* evaluation just before the evaluation that might cause an error as follows:
+
+```py
+>>> x = 1
+>>> y = 0
+>>> x >= 2 and y != 0 and (x/y) > 2
+False
+>>> x = 6
+>>> y = 0
+>>> x >= 2 and y != 0 and (x/y) > 2
+False
+>>> x >= 2 and (x/y) > 2 and y != 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>>
+```
+
+In the first logical expression, `x >= 2` is `False` so the evaluation stops at the `and`. In the second logical expression, x `>= 2` is `True` but `y != 0` is `False` so we never reach (`x/y`).
+
+In the third logical expression, the `y != 0` is after the (`x/y`) calculation so the expression fails with an error.
+
+In the second expression, we say that `y != 0` acts as a *guard* to insure that we only execute (`x/y`) if y is non-zero.
+
+## Debugging 
+
+The traceback Python displays when an error occurs contains a lot of information, but it can be overwhelming. The most useful parts are usually:
+
+- What kind of error it was, and
+
+- Where it occurred.
+
+Syntax errors are usually easy to find, but there are a few gotchas. Whitespace errors can be tricky because spaces and tabs are invisible and we are used to ignoring them.
+
+```py
+>>> x = 5
+>>>  y = 6
+  File "<stdin>", line 1
+    y = 6
+    ^
+IndentationError: unexpected indent
+```
+
+In this example, the problem is that the second line is indented by one space. But the error message points to `y`, which is misleading. In general, error messages indicate where the problem was discovered, but the actual error might be earlier in the code, sometimes on a previous line.
+
+In general, error messages tell you where the problem was discovered, but that is often not where it was caused.
+
+## Glossary
+
+**body**: The sequence of statements within a compound statement.
+
+**boolean expression**: An expression whose value is either True or False.
+
+**branch**: One of the alternative sequences of statements in a conditional statement.
+
+**chained conditional**: A conditional statement with a series of alternative branches.
+
+**comparison operator**: One of the operators that compares its operands: ==, !=, >, <, >=, and <=.
+
+**conditional statement**: A statement that controls the flow of execution depending on some condition.
+
+**condition**: The boolean expression in a conditional statement that determines which branch is executed.
+
+**compound statement**: A statement that consists of a header and a body. The header ends with a colon (:). The body is indented relative to the header.
+
+**guardian pattern**: Where we construct a logical expression with additional comparisons to take advantage of the short-circuit behavior.
+
+**logical operator**: One of the operators that combines boolean expressions: and, or, and not.
+
+**nested conditional**: A conditional statement that appears in one of the branches of another conditional statement.
+
+**traceback**: A list of the functions that are executing, printed when an exception occurs.
+
+**short circuit**: When Python is part-way through evaluating a logical expression and stops the evaluation because Python knows the final value for the expression without needing to evaluate the rest of the expression.
+
+# Exercises 
+
+## [Graded Assignment] Exercise 1  
+
+Accept and complete the assignment in the Github Classroom. Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.
+
+```py
+Enter Hours: 45
+Enter Rate: 10
+Pay: 475.0
+```
+
+<https://www.youtube.com/watch?v=oUMQbZ4SBuM>
+
+```py
+def exercise_3_1():
+    """ Write a program to prompt the user for hours and rate per hour using input to compute gross pay. 
+    Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours. 
+    Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). 
+    You should use input to read a string and float() to convert the string to a number. 
+    Do not worry about error checking the user input - assume the user types numbers properly.
+    
+    Parameters
+    ----------
+    45, 10.50
+    You should use input to read a string and float() to convert the string to a number.
+
+    Returns
+    -------
+    498.75
+    """
+
+    hrs = float(input("Enter Hours: "))  
+    rate = float(input("Enter Rate: "))
+
+    if hrs <= 40.0:
+        hrs = hrs 
+        rate = rate 
+    elif hrs > 40.0:
+        hrs = hrs
+        rate = rate * 1.5
+    
+    print(hrs*rate)
+    
+# exercise_3_1()
+```
+
+## Exercise 2
+
+Rewrite your pay program using `try` and `except` so that your program handles non-numeric input gracefully by printing a message and exiting the program. The following shows two executions of the program:
+
+```py
+Enter Hours: 20
+Enter Rate: nine
+Error, please enter numeric input
+```
+
+```py
+Enter Hours: forty
+Error, please enter numeric input
+```
+
+<https://www.youtube.com/watch?v=-iUA4cCKRlM>
+
+## [Graded Assignment] Exercise 3
+
+Accept and complete the assignment in the Github Classroom. Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error message. If the score is between 0.0 and 1.0, print a grade using the following table.
+
+```py
+ Score   Grade
+>= 0.9     A
+>= 0.8     B
+>= 0.7     C
+>= 0.6     D
+ < 0.6     F
+```
+
+```py
+Enter score: 0.95
+A
+```
+
+```py
+Enter score: perfect
+Bad score
+```
+
+```py
+Enter score: 10.0
+Bad score
+```
+
+```py
+Enter score: 0.75
+C
+```
+
+```py
+Enter score: 0.5
+F
+```
+
+Run the program repeatedly as shown above to test the various different values for input.
+
+```py
+def exercise_3_3():
+    """Write a program to prompt for a score between 0.0 and 1.0.
+    If the score is out of range, print an error. 
+    If the score is between 0.0 and 1.0, print a grade using the following table"""
+
+    """>= 0.9     A
+       >= 0.8     B
+       >= 0.7     C
+       >= 0.6     D
+       < 0.6      F"""
+
+    # prompt to enter score 
+    score = float(input("Enter Score: "))
+
+    # if score isn't between 0.0 and 1.0, print error message and exit.
+    if score < 0.0 or score > 1.0:
+        print("Error: Please try again.")
+        exit()
+    # assign grade letters 
+    elif score >= 0.9:
+        print("A")
+    elif score >= 0.8:
+        print("B")
+    elif score >= 0.7:
+        print("C")
+    elif score >= 0.6:
+        print("D")
+    elif score < 0.6:
+        print("F")
+
+# exercise_3_3() 
+```
