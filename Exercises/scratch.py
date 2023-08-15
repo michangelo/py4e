@@ -139,7 +139,7 @@ def exercise_4_6():
     h = float(hrs)
     r = float(rate) 
     
-    p = computepay(h*r)
+    p = computepay(h,r)
     print("Pay", p)
 
 exercise_4_6()
