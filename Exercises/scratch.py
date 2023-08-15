@@ -91,6 +91,7 @@ def exercise_3_1():
     
 # exercise_3_1()
 
+# -----------------GRADED
 def exercise_3_3():
     """Write a program to prompt for a score between 0.0 and 1.0.
     If the score is out of range, print an error. 
