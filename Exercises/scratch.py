@@ -133,7 +133,7 @@ def computepay(h,r):
 h = float(input("Enter Hours:"))
 r = float(input("Enter rate per hour:")) 
 p = computepay(h*r)
-print("Pay", p)
+print("PAY", p)
 
 computepay()
 
