@@ -1,4 +1,4 @@
-# Lesson 1 Notes: Why Program?
+# Lesson 1: Why Program?
 
 ## Course Objective.
 The objective of this course is to teach students the basics of the python programming language. By the end of the course, students will be able to: 
@@ -547,7 +547,7 @@ Explain each of the following using an example of a human capability: (1) Centra
 - Input Device is like hearing. 
 - Output Device is like speaking.  
 
-Exercise 9
+Exercise 9  
 How do you fix a "Syntax Error"?
 - Investigate the error type and debug. 
 
