@@ -126,7 +126,7 @@ def exercise_3_3():
 
 # -----------------GRADED 
 def exercise_4_6():
-    def computepay(h, r):
+    def computepay(h,r):
 
         if h > 40:
             return ((h*40) + ((h-40)+r*1.5))
