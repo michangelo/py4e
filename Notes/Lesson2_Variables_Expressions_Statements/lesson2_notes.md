@@ -1,5 +1,28 @@
 # Lesson 2: Variables, Expressions, and Statements
 
+- [Lesson 2: Variables, Expressions, and Statements](#lesson-2-variables-expressions-and-statements)
+  - [Values and Types](#values-and-types)
+  - [Variables](#variables)
+  - [Variable Names and Keywords](#variable-names-and-keywords)
+  - [Statements](#statements)
+  - [Operators and Operands](#operators-and-operands)
+  - [Expressions](#expressions)
+  - [Exercise 1](#exercise-1)
+  - [Order of Operations](#order-of-operations)
+  - [The Modulus Operator](#the-modulus-operator)
+  - [String Operations](#string-operations)
+  - [Asking the User for Input](#asking-the-user-for-input)
+  - [Comments](#comments)
+  - [Choosing Mnemonic Variable Names](#choosing-mnemonic-variable-names)
+  - [Debugging](#debugging)
+  - [Glossary](#glossary)
+- [Exercises](#exercises)
+  - [\[Graded Assignment\] Exercise 2](#graded-assignment-exercise-2)
+  - [\[Graded Assignment\] Exercise 3](#graded-assignment-exercise-3)
+  - [Exercise 4](#exercise-4)
+  - [Exercise 5](#exercise-5)
+
+
 ## Values and Types
 
 <https://www.youtube.com/watch?v=7KHdV6FSpo8>
@@ -600,5 +623,4 @@ def exercise_celsius_to_fahrenheit():
 
 # exercise_celsius_to_fahrenheit()
 ```
-
 
