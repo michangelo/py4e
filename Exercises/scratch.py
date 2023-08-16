@@ -19,5 +19,10 @@ def exercise_4_6():
     p = computepay(h,r)
     print("Pay",p)
 
-exercise_4_6()
+# exercise_4_6()
         
+n = 5
+while n > 0:
+    print(n)
+    n = n-1
+print('Blastoff!')
