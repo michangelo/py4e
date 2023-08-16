@@ -2,12 +2,14 @@
 
 - [Lesson 4: Functions](#lesson-4-functions)
   - [Function Calls](#function-calls)
+    - [https://www.youtube.com/watch?v=5Kzw-0-DQAk](#httpswwwyoutubecomwatchv5kzw-0-dqak)
   - [Built-in Functions](#built-in-functions)
   - [Type Conversion Functions](#type-conversion-functions)
   - [Math Functions](#math-functions)
   - [Random Numbers](#random-numbers)
   - [Exercise 1](#exercise-1)
   - [Adding new functions](#adding-new-functions)
+    - [https://www.youtube.com/watch?v=AJVNYRqn8kM](#httpswwwyoutubecomwatchvajvnyrqn8km)
   - [Definitions and Uses](#definitions-and-uses)
   - [Exercise 2](#exercise-2)
   - [Exercise 3](#exercise-3)
@@ -21,16 +23,17 @@
   - [Exercise 4](#exercise-4)
   - [Exercise 5](#exercise-5)
   - [\[Graded Assignment\] Exercise 6](#graded-assignment-exercise-6)
+    - [https://www.youtube.com/watch?v=l93PhBUJ\_S0](#httpswwwyoutubecomwatchvl93phbuj_s0)
   - [Exercise 7](#exercise-7)
 
 Take a brief look at how Python implements the 'store and use later' programming pattern.
 
+## Function Calls
+
 Video: Functions - Part 1
 
-<https://www.youtube.com/watch?v=5Kzw-0-DQAk>
+### <https://www.youtube.com/watch?v=5Kzw-0-DQAk>  
 Copyright Creative Commons Attribution 3.0 - Charles R. Severance
-
-## Function Calls
 
 In the context of programming, a *function* is a named sequence of statements that performs a computation. When you define a function, you specify the name and the sequence of statements. Later, you can "call" the function by name. We have already seen one example of a *function* call:
 
@@ -217,7 +220,7 @@ The `random` module also provides functions to generate random values from conti
 
 Video: Functions - Part 2
 
-<https://www.youtube.com/watch?v=AJVNYRqn8kM>
+### <https://www.youtube.com/watch?v=AJVNYRqn8kM>
 
 So far, we have only been using the functions that come with Python, but it is also possible to add new functions. A *function definition* specifies the name of a new function and the sequence of statements that execute when the function is called. Once we define a function, we can reuse the function over and over throughout our program.
 
@@ -573,7 +576,7 @@ Enter Rate: 10
 Pay: 475.0
 ```
 
-<https://www.youtube.com/watch?v=l93PhBUJ_S0>
+### <https://www.youtube.com/watch?v=l93PhBUJ_S0>
 
 ```py
 def exercise_4_6():
