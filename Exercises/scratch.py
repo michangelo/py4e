@@ -138,6 +138,7 @@ def exercise_3_3():
     if score < 0.0 or score > 1.0:
         print("Error: Please try again.")
         exit()
+
     # assign grade letters 
     elif score >= 0.9:
         print("A")
@@ -152,24 +153,34 @@ def exercise_3_3():
 
 # exercise_3_3() 
 
-
-
 # -----------------GRADED 
 def exercise_4_6():
     def computepay(h, r):
-
+        # base conditional for overtime pay 
         if h > 40:
-            return 1.5 * r * (h - 40) + (40 *r)
+            return 40*r + (h-40)*1.5*r
         else:
             return h*r
         
-    h = float(input("Enter Hours:"))
-    r = float(input("Enter rate per hour:"))
+    # input hours and rate     
+    h = input("Enter Hours:")
+    r = input("Enter rate per hour:")
+
+    # ensure input is of type float 
+    try: 
+        h = float(h)
+        r = float(r)
+    except:
+        print("Error. Use a float!")
+        exit()
     
+    # logic into function and print 
     p = computepay(h,r)
     print("Pay", p)
 
 # exercise_4_6()
+
+exercise_4_6()
 
 def blastoff():
     n=5
@@ -179,6 +190,7 @@ def blastoff():
     print("Blastoff!")
 
 #blastoff()
+
 
 
 
