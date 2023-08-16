@@ -1,5 +1,22 @@
 # Lesson 3: Conditionals 
 
+- [Lesson 3: Conditionals](#lesson-3-conditionals)
+  - [Boolean Expressions](#boolean-expressions)
+  - [Logical Operators](#logical-operators)
+  - [Conditional Execution](#conditional-execution)
+  - [Alternative Execution](#alternative-execution)
+  - [Chained Conditionals](#chained-conditionals)
+  - [Nested Conditionals](#nested-conditionals)
+  - [Catching Exceptions Using Try and Except](#catching-exceptions-using-try-and-except)
+  - [Short-Circuit Evaluation of Logical Expressions](#short-circuit-evaluation-of-logical-expressions)
+  - [Debugging](#debugging)
+  - [Glossary](#glossary)
+- [Exercises](#exercises)
+  - [\[Graded Assignment\] Exercise 1](#graded-assignment-exercise-1)
+  - [Exercise 2](#exercise-2)
+  - [\[Graded Assignment\] Exercise 3](#graded-assignment-exercise-3)
+
+
 We look at how Python executes some statements and skips others.
 
 Video: Conditional Execution - Part 1
@@ -373,7 +390,7 @@ In general, error messages tell you where the problem was discovered, but that i
 
 **short circuit**: When Python is part-way through evaluating a logical expression and stops the evaluation because Python knows the final value for the expression without needing to evaluate the rest of the expression.
 
-# Exercises 
+# Exercises
 
 ## [Graded Assignment] Exercise 1  
 
