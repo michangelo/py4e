@@ -1,4 +1,29 @@
-# Lesson 4: Functions 
+# Lesson 4: Functions
+
+- [Lesson 4: Functions](#lesson-4-functions)
+  - [Function Calls](#function-calls)
+  - [Built-in Functions](#built-in-functions)
+  - [Type Conversion Functions](#type-conversion-functions)
+  - [Math Functions](#math-functions)
+  - [Random Numbers](#random-numbers)
+  - [Exercise 1](#exercise-1)
+  - [Adding new functions](#adding-new-functions)
+  - [Definitions and Uses](#definitions-and-uses)
+  - [Exercise 2](#exercise-2)
+  - [Exercise 3](#exercise-3)
+  - [Flow of Execution](#flow-of-execution)
+  - [Parameters and Arguments](#parameters-and-arguments)
+  - [Fruitful Functions and Void Functions](#fruitful-functions-and-void-functions)
+  - [Why Functions?](#why-functions)
+  - [Debugging](#debugging)
+  - [Glossary](#glossary)
+- [Exercises](#exercises)
+  - [Exercise 4](#exercise-4)
+  - [Exercise 5](#exercise-5)
+  - [\[Graded Assignment\] Exercise 6](#graded-assignment-exercise-6)
+  - [Exercise 7](#exercise-7)
+
+
 
 Take a brief look at how Python implements the 'store and use later' programming pattern.
 
@@ -165,7 +190,7 @@ This program produces the following list of 10 random numbers between 0.0 and up
 0.028511805472785867
 ```
 
-# Exercise 1
+## Exercise 1
 
 Run the program on your system and see what numbers you get. Run the program more than once and see what numbers you get.
 
@@ -283,7 +308,7 @@ This program contains two function definitions: `print_lyrics` and `repeat_lyric
 
 As you might expect, you have to create a function before you can execute it. In other words, the function definition has to be executed before the first time it is called.
 
-# Exercise 2
+## Exercise 2
 
 Move the last line of this program to the top, so the function call appears before the definitions. Run the program and see what error message you get.
 
@@ -300,7 +325,7 @@ def repeat_lyrics():
     print_lyrics()
 ```
 
-# Exercise 3
+## Exercise 3
 Move the function call back to the bottom and move the definition of print_lyrics after the definition of repeat_lyrics. What happens when you run this program?
 
 ```py
@@ -506,7 +531,9 @@ Make sure that the code you are looking at is the code you are running. If you'r
 
 **void function**: A function that does not return a value.
 
-# Exercise 4
+# Exercises
+
+## Exercise 4
 
 What is the purpose of the "def" keyword in Python?
 
@@ -516,7 +543,7 @@ c) It indicates that the following indented section of code is to be stored for 
 **d) b and c are both true**  
 e) None of the above
 
-# Exercise 5
+## Exercise 5
 
 What will the following Python program print out?
 
@@ -538,7 +565,7 @@ c) ABC Zap jane
 **d) ABC Zap ABC**  
 e) Zap Zap Zap  
 
-# [Graded Assignment] Exercise 6
+## [Graded Assignment] Exercise 6
 
 Accept and complete the assignment in the Github Classroom. Rewrite your pay computation with time-and-a-half for overtime and create a function called computepay which takes two parameters (hours and rate).
 
@@ -607,61 +634,3 @@ F
 ```
 
 Run the program repeatedly to test the various different values for input.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
