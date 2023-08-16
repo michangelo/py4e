@@ -133,16 +133,13 @@ def exercise_4_6():
         else:
             return h*r
         
-    hrs = input("Enter Hours:")
-    rate = input("Enter rate per hour:")
-
-    h = float(hrs)
-    r = float(rate) 
+    h = float(input("Enter Hours:"))
+    r = float(input("Enter rate per hour:"))
     
     p = computepay(h,r)
     print("Pay", p)
 
-# exercise_4_6()
+exercise_4_6()
 
 
     
