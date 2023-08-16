@@ -346,33 +346,3 @@ Enter a number: done
 ## [Graded Assignment] Exercise 2
 
 Accept and complete the assignment in the Github Classroom. Write another program that prompts for a list of numbers as above and at the end prints out both the maximum and minimum of the numbers instead of the average.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
