@@ -1,5 +1,36 @@
 # Lesson 1: Why Program?
 
+- [Lesson 1: Why Program?](#lesson-1-why-program)
+  - [Course Objective.](#course-objective)
+  - [Course Goal.](#course-goal)
+  - [Key Terms and Vocabulary.](#key-terms-and-vocabulary)
+  - [Why should you learn to write programs?](#why-should-you-learn-to-write-programs)
+  - [Creativity and motivation](#creativity-and-motivation)
+  - [Computer Hardware Architecture](#computer-hardware-architecture)
+  - [Understanding Programming](#understanding-programming)
+  - [Words and Sentences](#words-and-sentences)
+  - [Conversing with Python](#conversing-with-python)
+  - [Terminology: Interpreter and Compiler](#terminology-interpreter-and-compiler)
+  - [Writing a Program](#writing-a-program)
+  - [What is a Program?](#what-is-a-program)
+  - [The Building Blocks of Programs](#the-building-blocks-of-programs)
+  - [What Could Possibly Go Wrong?](#what-could-possibly-go-wrong)
+  - [Debugging](#debugging)
+  - [The Learning Journey](#the-learning-journey)
+  - [Glossary](#glossary)
+- [Exercises](#exercises)
+  - [\[Graded Assignment\] Exercise 0: Hello World](#graded-assignment-exercise-0-hello-world)
+  - [Exercise 1](#exercise-1)
+  - [Exercise 2](#exercise-2)
+  - [Exercise 3](#exercise-3)
+  - [Exercise 4](#exercise-4)
+  - [Exercise 5](#exercise-5)
+  - [Exercise 6](#exercise-6)
+  - [Exercise 7](#exercise-7)
+  - [Exercise 8](#exercise-8)
+  - [Exercise 9](#exercise-9)
+
+
 ## Course Objective.
 The objective of this course is to teach students the basics of the python programming language. By the end of the course, students will be able to: 
 - write simple python programs
@@ -469,16 +500,25 @@ If something seems particularly hard, there is usually no value in staying up al
 
 - **source code**: A program in a high-level language.
 
-## Exercises
+# Exercises
 
 Graded Assignments and GitHub  
 The following assignment will explain more about GitHub, which you will be using to submit your graded assignments. Accept the assignment in the GitHub Classroom.
 
-0. Exercises
-[Graded Assignment] Hello World  
+## [Graded Assignment] Exercise 0: Hello World  
+
 Accept and complete the assignment in the Github Classroom.
 
-1. Exercise 1  
+```py
+def exercise_hello():
+    name1 = input('Enter your name: ')
+    print("Hello ",name1) 
+
+# exercise_hello()
+```
+
+## Exercise 1
+
 What is the function of the secondary memory in a computer?
 
 a) Execute all of the computation and logic of the program  
@@ -486,26 +526,31 @@ b) Retrieve web pages over the Internet
 **c) Store information for the long term, even beyond a power cycle**  
 d) Take input from the user
 
-Exercise 2  
+## Exercise 2  
+
 What is a program?
 
 - A program is at its most basic a sequence of python statements that have been crafted to do something. 
 
-Exercise 3  
+## Exercise 3  
+
 What is the difference between a compiler and an interpreter?
 
 - A compiler takes high-level programming languages from the source and compiles them into machine language such as binaries and outputs the code from that machine language. An interpreter takes the source code and interprets it as is, and then outputs that interpretation. 
 
-Exercise 4  ??  
+## Exercise 4
+
 Which of the following contains "machine code"?  
     **a) The Python interpreter**  
     b) The keyboard  
     c) Python source file  
     d) A word processing document  
 
-Exercise 5
+## Exercise 5
+
 What is wrong with the following code:
-```
+
+```py
 primt 'Hello world!'
 File "<stdin>", line 1
   primt 'Hello world!'
@@ -513,12 +558,14 @@ File "<stdin>", line 1
 SyntaxError: invalid syntax
 >>>
 ```
+
 - A SyntaxError is given by python due to invalid syntax, not recognizing print or parentheses. 
 
-Exercise 6  
+## Exercise 6
+
 Where in the computer is a variable such as "x" stored after the following Python line finishes?  
 
-x = 123 ??
+x = 123 
 
 a) Central processing unit  
 **b) Main Memory**  
@@ -526,19 +573,23 @@ c) Secondary Memory
 d) Input Devices  
 e) Output Devices  
 
-Exercise 7
+## Exercise 7
+
 What will the following program print out:
-```
+
+```py
 x = 43
 x = x - 1
 print(x)
 ```
+
 a) 43  
 **b) 42**  
 c) x + 1  
 d) Error because x = x + 1 is not possible mathematically
 
-Exercise 8
+## Exercise 8
+
 Explain each of the following using an example of a human capability: (1) Central processing unit, (2) Main Memory, (3) Secondary Memory, (4) Input Device, and (5) Output Device. For example, "What is the human equivalent to a Central Processing Unit"?
 
 - Central Processing unit is the brain.
@@ -547,8 +598,7 @@ Explain each of the following using an example of a human capability: (1) Centra
 - Input Device is like hearing. 
 - Output Device is like speaking.  
 
-Exercise 9  
+## Exercise 9  
 How do you fix a "Syntax Error"?
-- Investigate the error type and debug. 
 
-# END - Lesson 1
+- Investigate the error type and debug.
