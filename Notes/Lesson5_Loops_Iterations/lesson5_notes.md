@@ -1,5 +1,21 @@
 # Lesson 5: Loops and Iterations
 
+- [Lesson 5: Loops and Iterations](#lesson-5-loops-and-iterations)
+  - [Updating Variables](#updating-variables)
+  - [The `while` Statement](#the-while-statement)
+  - [Infinite Loops](#infinite-loops)
+  - [Finishing Iterations with `continue`](#finishing-iterations-with-continue)
+  - [Definite Loops Using `for`](#definite-loops-using-for)
+  - [Loop Patterns](#loop-patterns)
+  - [Counting and Summing Loops](#counting-and-summing-loops)
+  - [Maximum and Minimum Loops](#maximum-and-minimum-loops)
+  - [Debugging](#debugging)
+  - [Glossary](#glossary)
+- [Exercises](#exercises)
+  - [Exercise 1](#exercise-1)
+  - [\[Graded Assignment\] Exercise 2](#graded-assignment-exercise-2)
+
+
 We look at how Python repeats statements using looping structures.
 
 Video: Loops and Iteration - Part 1
