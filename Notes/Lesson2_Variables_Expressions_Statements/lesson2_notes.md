@@ -2,6 +2,7 @@
 
 - [Lesson 2: Variables, Expressions, and Statements](#lesson-2-variables-expressions-and-statements)
   - [Values and Types](#values-and-types)
+    - [https://www.youtube.com/watch?v=7KHdV6FSpo8](#httpswwwyoutubecomwatchv7khdv6fspo8)
   - [Variables](#variables)
   - [Variable Names and Keywords](#variable-names-and-keywords)
   - [Statements](#statements)
@@ -19,17 +20,14 @@
 - [Exercises](#exercises)
   - [\[Graded Assignment\] Exercise 2](#graded-assignment-exercise-2)
   - [\[Graded Assignment\] Exercise 3](#graded-assignment-exercise-3)
+    - [https://www.youtube.com/watch?v=DVmspDooG2c](#httpswwwyoutubecomwatchvdvmspdoog2c)
   - [Exercise 4](#exercise-4)
   - [Exercise 5](#exercise-5)
 
 
 ## Values and Types
 
-<https://www.youtube.com/watch?v=7KHdV6FSpo8>
-
-A **value** is one of the basic things a program works with, like a letter or a number. The values we have seen so far are 1, 2, and "Hello, World!"
-
-These values belong to different **types**: 2 is an integer, and "Hello, World!" is a string, so called because it contains a "string" of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
+### <https://www.youtube.com/watch?v=7KHdV6FSpo8>
 
 The `print` statement also works for integers. We use the `python` command to start the interpreter.
 
@@ -584,7 +582,7 @@ Accept and complete the assignment in the Github Classroom.Write a program to pr
 
 We won't worry about making sure our pay has exactly two digits after the decimal place for now. If you want, you can play with the built-in Python round function to properly round the resulting pay to two decimal places.
 
-<https://www.youtube.com/watch?v=DVmspDooG2c>
+### <https://www.youtube.com/watch?v=DVmspDooG2c>
 
 ## Exercise 4
 Assume that we execute the following assignment statements:

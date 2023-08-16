@@ -2,10 +2,12 @@
 
 - [Lesson 3: Conditionals](#lesson-3-conditionals)
   - [Boolean Expressions](#boolean-expressions)
+    - [https://www.youtube.com/watch?v=2aA3VBdcl6A](#httpswwwyoutubecomwatchv2aa3vbdcl6a)
   - [Logical Operators](#logical-operators)
   - [Conditional Execution](#conditional-execution)
   - [Alternative Execution](#alternative-execution)
   - [Chained Conditionals](#chained-conditionals)
+    - [https://www.youtube.com/watch?v=OczkNrHPBps](#httpswwwyoutubecomwatchvoczknrhpbps)
   - [Nested Conditionals](#nested-conditionals)
   - [Catching Exceptions Using Try and Except](#catching-exceptions-using-try-and-except)
   - [Short-Circuit Evaluation of Logical Expressions](#short-circuit-evaluation-of-logical-expressions)
@@ -13,20 +15,22 @@
   - [Glossary](#glossary)
 - [Exercises](#exercises)
   - [\[Graded Assignment\] Exercise 1](#graded-assignment-exercise-1)
+    - [https://www.youtube.com/watch?v=oUMQbZ4SBuM](#httpswwwyoutubecomwatchvoumqbz4sbum)
   - [Exercise 2](#exercise-2)
+    - [https://www.youtube.com/watch?v=-iUA4cCKRlM](#httpswwwyoutubecomwatchv-iua4cckrlm)
   - [\[Graded Assignment\] Exercise 3](#graded-assignment-exercise-3)
 
 
 We look at how Python executes some statements and skips others.
 
-Video: Conditional Execution - Part 1
-
-<https://www.youtube.com/watch?v=2aA3VBdcl6A>  
-Copyright Creative Commons Attribution 3.0 - Charles R. Severance
-
 ## Boolean Expressions
 
 A *boolean expression* is an expression that is either true or false. The following examples use the operator `==`, which compares two operands and produces `True` if they are equal and `False` otherwise:
+
+Video: Conditional Execution - Part 1
+
+### <https://www.youtube.com/watch?v=2aA3VBdcl6A>
+Copyright Creative Commons Attribution 3.0 - Charles R. Severance
 
 ``` py
 >>> 5 == 5
@@ -152,7 +156,7 @@ Since the condition must either be true or false, exactly one of the alternative
 
 Video: Conditional Execution - Part 2
 
-<https://www.youtube.com/watch?v=OczkNrHPBps>
+### <https://www.youtube.com/watch?v=OczkNrHPBps>
 
 Sometimes there are more than two possibilities and we need more than two branches. One way to express a computation like that is a *chained conditional*:
 
@@ -402,7 +406,7 @@ Enter Rate: 10
 Pay: 475.0
 ```
 
-<https://www.youtube.com/watch?v=oUMQbZ4SBuM>
+### <https://www.youtube.com/watch?v=oUMQbZ4SBuM>
 
 ```py
 def exercise_3_1():
@@ -452,7 +456,7 @@ Enter Hours: forty
 Error, please enter numeric input
 ```
 
-<https://www.youtube.com/watch?v=-iUA4cCKRlM>
+### <https://www.youtube.com/watch?v=-iUA4cCKRlM>
 
 ## [Graded Assignment] Exercise 3
 

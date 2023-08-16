@@ -21,7 +21,7 @@ def exercise_2_2():
     """
 
     in_name = input("Enter your name: ")
-    print("Hello ",name)
+    print("Hello ",in_name)
 
 # exercise_2_2()
 
@@ -91,6 +91,28 @@ def exercise_3_1():
     
 # exercise_3_1()
 
+def exercise_3_2():
+    hrs = (input("Enter Hours: "))  
+    rate = (input("Enter Rate: "))
+
+    try:
+        hrs = float(hrs)
+        rate = float(rate)
+    except:
+        print("Error, please enter numeric input")
+        quit() 
+
+    if hrs <= 40.0:
+        hrs = hrs 
+        rate = rate 
+    elif hrs > 40.0:
+        hrs = hrs
+        rate = rate * 1.5
+    
+    print(hrs*rate)
+
+# exercise_3_2()
+
 # -----------------GRADED
 def exercise_3_3():
     """Write a program to prompt for a score between 0.0 and 1.0.
@@ -104,7 +126,13 @@ def exercise_3_3():
        < 0.6      F"""
 
     # prompt to enter score 
-    score = float(input("Enter Score: "))
+    score = input("Enter Score: ")
+
+    try:
+        score = float(score)
+    except:
+        print("Bad score")
+        quit()
 
     # if score isn't between 0.0 and 1.0, print error message and exit.
     if score < 0.0 or score > 1.0:
@@ -124,6 +152,8 @@ def exercise_3_3():
 
 # exercise_3_3() 
 
+
+
 # -----------------GRADED 
 def exercise_4_6():
     def computepay(h, r):
@@ -140,6 +170,17 @@ def exercise_4_6():
     print("Pay", p)
 
 # exercise_4_6()
+
+def blastoff():
+    n=5
+    while n>0:
+        print(n)
+        n = n-1
+    print("Blastoff!")
+
+#blastoff()
+
+
 
 
     

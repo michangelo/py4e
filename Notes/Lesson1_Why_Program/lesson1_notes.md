@@ -5,15 +5,21 @@
   - [Course Goal.](#course-goal)
   - [Key Terms and Vocabulary.](#key-terms-and-vocabulary)
   - [Why should you learn to write programs?](#why-should-you-learn-to-write-programs)
+    - [https://youtu.be/fvhNadKjE8g](#httpsyoutubefvhnadkje8g)
+    - [https://www.youtube.com/watch?v=VQZTZsXk8sA](#httpswwwyoutubecomwatchvvqztzsxk8sa)
   - [Creativity and motivation](#creativity-and-motivation)
   - [Computer Hardware Architecture](#computer-hardware-architecture)
   - [Understanding Programming](#understanding-programming)
+    - [https://www.youtube.com/watch?v=y39D4529FM4](#httpswwwyoutubecomwatchvy39d4529fm4)
+    - [https://www.youtube.com/watch?v=9eMWG3fwiEU](#httpswwwyoutubecomwatchv9emwg3fwieu)
   - [Words and Sentences](#words-and-sentences)
   - [Conversing with Python](#conversing-with-python)
+    - [https://www.youtube.com/watch?v=LLzFNlCjTSo](#httpswwwyoutubecomwatchvllzfnlcjtso)
   - [Terminology: Interpreter and Compiler](#terminology-interpreter-and-compiler)
   - [Writing a Program](#writing-a-program)
   - [What is a Program?](#what-is-a-program)
   - [The Building Blocks of Programs](#the-building-blocks-of-programs)
+    - [https://www.youtube.com/watch?v=gsry2SYOFCw](#httpswwwyoutubecomwatchvgsry2syofcw)
   - [What Could Possibly Go Wrong?](#what-could-possibly-go-wrong)
   - [Debugging](#debugging)
   - [The Learning Journey](#the-learning-journey)
@@ -80,7 +86,7 @@ The goal of this course is to help students develop the skills they need to be s
 
 Why program - part 1
 
-<https://youtu.be/fvhNadKjE8g>
+### <https://youtu.be/fvhNadKjE8g>
 
 Writing programs (or programming) is a very creative and rewarding activity. You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem. This book assumes that everyone needs to know how to program, and that once you know how to program you will figure out what you want to do with your newfound skills.
 
@@ -105,7 +111,7 @@ This very fact that computers are good at things that humans are not is why you 
 
 Video: Why Program - Part 2
 
-<https://www.youtube.com/watch?v=VQZTZsXk8sA>
+### <https://www.youtube.com/watch?v=VQZTZsXk8sA>
 
 ## Creativity and motivation
 
@@ -147,11 +153,11 @@ You need to be the person who answers the CPU's "What next?" question. But it wo
 
 Video: What happens when the CPU cooler is removed?
 
-<https://www.youtube.com/watch?v=y39D4529FM4>
+### <https://www.youtube.com/watch?v=y39D4529FM4>
 
 Video: Inside of Hard Drive
 
-<https://www.youtube.com/watch?v=9eMWG3fwiEU>
+### <https://www.youtube.com/watch?v=9eMWG3fwiEU>
 
 In the rest of this book, we will try to turn you into a person who is skilled in the art of programming. In the end you will be a programmer - perhaps not a professional programmer, but at least you will have the skills to look at a data/information analysis problem and develop a program to solve the problem.
 
@@ -195,7 +201,7 @@ And we have even written our first syntactically correct Python sentence. Our se
 
 Video: Why Program - Part 3
 
-<https://www.youtube.com/watch?v=LLzFNlCjTSo>
+### <https://www.youtube.com/watch?v=LLzFNlCjTSo>
 
 Now that we have a word and a simple sentence that we know in Python, we need to know how to start a conversation with Python to test our new language skills.
 
@@ -360,7 +366,7 @@ This is a good example of how Python and the Python language are acting as an in
 
 Video: Why Program - Part 4  
 
-<https://www.youtube.com/watch?v=gsry2SYOFCw>
+### <https://www.youtube.com/watch?v=gsry2SYOFCw>
 
 In the next few chapters, we will learn more about the vocabulary, sentence structure, paragraph structure, and story structure of Python. We will learn about the powerful capabilities of Python and how to compose those capabilities together to create useful programs.
 
