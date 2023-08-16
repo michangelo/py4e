@@ -23,8 +23,6 @@
   - [\[Graded Assignment\] Exercise 6](#graded-assignment-exercise-6)
   - [Exercise 7](#exercise-7)
 
-
-
 Take a brief look at how Python implements the 'store and use later' programming pattern.
 
 Video: Functions - Part 1
