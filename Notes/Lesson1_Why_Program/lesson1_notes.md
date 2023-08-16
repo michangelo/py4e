@@ -46,7 +46,7 @@ The goal of this course is to help students develop the skills they need to be s
 
 ## Key Terms and Vocabulary.
 
-Python: general-purpose programming language that is used for a wide variety of tasks, including data analysis, web dev, and machine learning.
+**Python**: general-purpose programming language that is used for a wide variety of tasks, including data analysis, web dev, and machine learning.
 
 **Programming language**: set of instructions that tells a computer what to do.
 
