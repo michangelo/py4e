@@ -2,30 +2,36 @@
 
 - [Lesson 5: Loops and Iterations](#lesson-5-loops-and-iterations)
   - [Updating Variables](#updating-variables)
+    - [https://www.youtube.com/watch?v=FzpurxjwmsM](#httpswwwyoutubecomwatchvfzpurxjwmsm)
   - [The `while` Statement](#the-while-statement)
   - [Infinite Loops](#infinite-loops)
   - [Finishing Iterations with `continue`](#finishing-iterations-with-continue)
   - [Definite Loops Using `for`](#definite-loops-using-for)
+    - [https://www.youtube.com/watch?v=5QDrj5ogPYc](#httpswwwyoutubecomwatchv5qdrj5ogpyc)
   - [Loop Patterns](#loop-patterns)
   - [Counting and Summing Loops](#counting-and-summing-loops)
+    - [https://www.youtube.com/watch?v=yjlMMwf9Y5I](#httpswwwyoutubecomwatchvyjlmmwf9y5i)
   - [Maximum and Minimum Loops](#maximum-and-minimum-loops)
+    - [https://www.youtube.com/watch?v=xsavQp8hd78](#httpswwwyoutubecomwatchvxsavqp8hd78)
   - [Debugging](#debugging)
   - [Glossary](#glossary)
 - [Exercises](#exercises)
   - [Exercise 1](#exercise-1)
+    - [https://www.youtube.com/watch?v=R2GrfqRofZc](#httpswwwyoutubecomwatchvr2grfqrofzc)
   - [\[Graded Assignment\] Exercise 2](#graded-assignment-exercise-2)
 
 
 We look at how Python repeats statements using looping structures.
 
-Video: Loops and Iteration - Part 1
-
-<https://www.youtube.com/watch?v=FzpurxjwmsM>
 
 ## Updating Variables
 
 A common pattern in assignment statements is an assignment statement that updates a variable, where the new value of the variable depends on the old.
 
+
+Video: Loops and Iteration - Part 1
+
+### <https://www.youtube.com/watch?v=FzpurxjwmsM>
 
 ```py
 x = x + 1
@@ -160,7 +166,7 @@ All the lines are printed except the one that starts with the hash sign because 
 
 Video: Loops and Iteration - Part 2
 
-<https://www.youtube.com/watch?v=5QDrj5ogPYc>
+### <https://www.youtube.com/watch?v=5QDrj5ogPYc>
 
 Sometimes we want to loop through a set of things such as a list of words, the lines in a file, or a list of numbers. When we have a list of things to loop through, we can construct a definite loop using a `for` statement. We call the `while` statement an indefinite loop because it simply loops until some condition becomes `False`, whereas the `for` loop is looping through a known set of items so it runs through as many iterations as there are items in the set.
 
@@ -211,7 +217,7 @@ We will use a list of numbers to demonstrate the concepts and construction of th
 
 Video: Loops and Iteration - Part 4
 
-<https://www.youtube.com/watch?v=yjlMMwf9Y5I>
+### <https://www.youtube.com/watch?v=yjlMMwf9Y5I>
 
 For example, to count the number of items in a list, we would write the following `for` loop:
 
@@ -247,7 +253,7 @@ Neither the counting loop nor the summing loop are particularly useful in practi
 
 Video: Loops and Iteration - Part 3
 
-<https://www.youtube.com/watch?v=xsavQp8hd78>
+### <https://www.youtube.com/watch?v=xsavQp8hd78>
 
 To find the largest value in a list or sequence, we construct the following loop:
 
@@ -357,7 +363,7 @@ Enter a number: done
 16 3 5.333333333333333
 ```
 
-<https://www.youtube.com/watch?v=R2GrfqRofZc>
+### <https://www.youtube.com/watch?v=R2GrfqRofZc>
 
 ## [Graded Assignment] Exercise 2
 
