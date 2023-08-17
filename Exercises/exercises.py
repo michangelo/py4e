@@ -242,7 +242,7 @@ def exercise_5_2():
     print("Maximum is", int(largest))
     print("Minimum is", int(smallest))
 
-exercise_5_2()
+# exercise_5_2()
 
 
 
