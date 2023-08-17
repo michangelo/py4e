@@ -216,7 +216,7 @@ In Python 3.0 integer division functions much more as you would expect if you en
 
 Video: Variables, Expressions and Statements - Part 2
 
-<https://www.youtube.com/watch?v=kefrGMAglGs>
+### <https://www.youtube.com/watch?v=kefrGMAglGs>
 
 An *expression* is a combination of values, variables, and operators. A value all by itself is considered an expression, and so is a variable, so the following are all legal expressions (assuming that the variable `x` has been assigned a value):
 
