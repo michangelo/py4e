@@ -180,8 +180,6 @@ def exercise_4_6():
 
 # exercise_4_6()
 
-exercise_4_6()
-
 def blastoff():
     n=5
     while n>0:
@@ -190,6 +188,62 @@ def blastoff():
     print("Blastoff!")
 
 #blastoff()
+
+def exercise_5_1():
+    num = 0
+    tot = 0.0
+    while True:
+        sval = input("Enter a number: ")
+        if sval == "done":
+            break
+        try:
+            fval = float(sval)
+        except:
+            print("Invalid input")
+            continue
+        # print(fval)
+        num = num + 1
+        tot = tot + fval
+    # print('All Done')
+    print(tot, num, tot/num)
+
+# exercise_5_1()
+
+def exercise_5_2():
+    """Repeatedly prompts a user for integer numbers
+    until user enters "done". Once "done" is entered, 
+    print out the largest and smallest of the numbers"""
+
+    largest = None
+    smallest = None
+
+    while True:
+        num = input("Enter a number: ")
+        if num == "done": 
+            break
+        try: 
+            fnum = float(num)
+        except:
+            print("Invalid input")
+            continue
+        # print(num)
+
+        # if conditional to set largest and smallest variable from fnum
+        if largest is None:
+                largest = fnum
+        elif fnum > largest:
+                largest = fnum
+        elif smallest is None:
+                smallest = fnum
+        elif fnum < smallest:
+                smallest = fnum
+
+    # ensure largest and smallest variables are set to type "int"
+    print("Maximum is", int(largest))
+    print("Minimum is", int(smallest))
+
+exercise_5_2()
+
 
 
 
