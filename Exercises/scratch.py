@@ -77,7 +77,7 @@
 #     print(count, thing)
 # print('After', count)
 
- # running count and total 
+ ### running count and total 
 num = 0
 tot = 0.0
 while True:
@@ -94,3 +94,20 @@ while True:
     tot = tot + fval
 # print('All Done')
 print(tot, num, tot/num)
+
+# fhand = open('mbox-short.txt')
+# count = 0
+# for line in fhand:
+#     count = count + 1
+# print('Line Count:', count)
+
+# xfile = open('mbox.txt')
+# for cheese in xfile:
+#     print(cheese)
+
+# Counting Lines in a File 
+fhand = open('mbox.txt')
+count = 0 
+for line in fhand:
+    count = count + 1 
+print('Line Count:', count)
