@@ -78,22 +78,22 @@
 # print('After', count)
 
  ### running count and total 
-num = 0
-tot = 0.0
-while True:
-    sval = input("Enter a number: ")
-    if sval == "done":
-        break
-    try:
-        fval = float(sval)
-    except:
-        print("Invalid input")
-        continue
-    # print(fval)
-    num = num + 1
-    tot = tot + fval
-# print('All Done')
-print(tot, num, tot/num)
+# num = 0
+# tot = 0.0
+# while True:
+#     sval = input("Enter a number: ")
+#     if sval == "done":
+#         break
+#     try:
+#         fval = float(sval)
+#     except:
+#         print("Invalid input")
+#         continue
+#     # print(fval)
+#     num = num + 1
+#     tot = tot + fval
+# # print('All Done')
+# print(tot, num, tot/num)
 
 # fhand = open('mbox-short.txt')
 # count = 0
@@ -106,8 +106,17 @@ print(tot, num, tot/num)
 #     print(cheese)
 
 # Counting Lines in a File 
-fhand = open('mbox.txt')
-count = 0 
+# fhand = open('mbox.txt')
+# count = 0 
+# for line in fhand:
+#     count = count + 1 
+# print('Line Count:', count)
+
+fhand = open('mbox-short.txt')
+count = 0
 for line in fhand:
-    count = count + 1 
-print('Line Count:', count)
+    words = line.split()
+    # print('Debug:', words)
+    if len(words) == 0 : continue
+    if words[0] != 'From' : continue
+    print(words[2])
