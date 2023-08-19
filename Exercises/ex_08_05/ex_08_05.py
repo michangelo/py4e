@@ -5,18 +5,18 @@ fhandle = open('mbox-short.txt')
 
 for line in fhandle:
     line = line.rstrip()
-    print("Line:", line)
+    #print("Line:", line)
     # Guardian to skip blank lines
-    if line == "":
-        print("Skip Blank")
-        continue
-    words = line.split()
-    print('Debug:', words)
-    # Guardian
-    # if len(words) < 1:
+    # if line == "":
+    #     print("Skip Blank")
     #     continue
+    words = line.split()
+    #print('Debug:', words)
+    # Guardian
+    if len(words) < 3:
+         continue
     if words[0] != "From":
-        print("Ignore")
+        # print("Ignore")
         continue 
     print(words[2])
 
