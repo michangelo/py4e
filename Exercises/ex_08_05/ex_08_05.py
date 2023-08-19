@@ -1,10 +1,15 @@
-fname = input("Enter file name: ")
-fhandle = open(fname)
+#fname = input("Enter file name: ")
+#fhandle = open(fname)
+
+fhandle = open('mbox-short.txt')
 
 for line in fhandle:
     line = line.rstrip()
+    print("Line:", line)
     words = line.split()
     print('Debug:', words)
+    if len(words) < 1:
+        continue
     if words[0] != "From":
         print("Ignore")
         continue 
