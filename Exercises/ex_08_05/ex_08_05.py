@@ -1,4 +1,5 @@
-han = open('mbox-short.txt')
+fname = input("Enter file name: ")
+fhandle = open(fname)
 
 for line in han:
     line = line.rstrip()
