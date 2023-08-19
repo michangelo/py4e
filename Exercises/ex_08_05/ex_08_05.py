@@ -3,9 +3,10 @@ fhandle = open(fname)
 
 for line in fhandle:
     line = line.rstrip()
-    wds = line.split()
-    if wds[0] != "From": continue 
-    print(wds[2])
+    words = line.split()
+    print('Debug:', words)
+    if words[0] != "From": continue 
+    print(words[2])
 
 # fhand = open('mbox-short.txt')
 # count = 0
