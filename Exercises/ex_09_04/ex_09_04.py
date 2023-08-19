@@ -7,4 +7,12 @@ for line in fhand:
     email = pieces[1]
     c[email] = c.get(email, 0) + 1
 
-print(c)
+bigc = None
+bige = None
+for word in c:
+    value = c[word]
+    if bigc is None or value > bigc:
+        bigw = word
+        bigc = value
+
+print(bigw, bigc)
