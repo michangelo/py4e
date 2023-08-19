@@ -19,7 +19,6 @@ def exercise_8_5():
     count = 0                               # initialize count to 0 
     words = list()
     for line in fhandle:                    # iterate each line in fhandle
-        count = count + 1 
         line = line.rstrip()                # strip whitespace 
         # print("Line:", line)
         # Guardian to skip blank lines
@@ -36,7 +35,9 @@ def exercise_8_5():
         # Guardian in a compound statement 
         if len(words) < 3 or words[0] != "From":
             # print("Ignore")
+             
             continue
+        count = count + 1 
         print(words[2])
     print("There were", count, "lines in the file with From as the first word")
 exercise_8_5()
