@@ -10,7 +10,6 @@ def exercise_9_4():
     using a maximum loop to find the most prolific committer.
     """
     fname = input('Enter file name: ')                                      # enter mbox-short.txt
-    fhandle = open(fname)                                                   # open file and store as file handle
     my_dictionary = dict()                                                  # initialize empty dictionary
     try:                                                                    # be pythonic with errors 
         fhandle = open(fname)                                   
