@@ -1,5 +1,4 @@
 def exercise_8_5():
-
     """
     1. Open the file mbox-short.txt and read it line by line. 
     2. When you find a line that starts with 'From ' like the following line:
@@ -12,32 +11,27 @@ def exercise_8_5():
           `There were 27 lines in the file with From as the first word`
     """
 
-    # fname = input("Enter file name: ")
-    # fhandle = open(fname)
-
     fhandle = open("mbox-short.txt")        # Open file mbox-short.txt
     count = 0                               # initialize count to 0 
-    words = list()
+    word_list = list()                      # creat empty words_list
     for line in fhandle:                    # iterate each line in fhandle
         line = line.rstrip()                # strip whitespace 
-        # print("Line:", line)
-        # Guardian to skip blank lines
+        # print("Line:", line)              # debug: check lines
+        # Guardian to skip blank lines      # debug: guardian for blank lines
         # if line == "":
             # print("Skip Blank")
             # continue
-        words = line.split()                # split words 
-        # print("Debug:", words)
-        # Guardian a bit stronger
-        # if len(words) < 3:
+        word_list = line.split()            # split word_list 
+        # print("Debug:", word_list)        # debug: word_list
+        # Guardian a bit stronger           # debug: guardian to skip words < 3
+        # if len(word_list) < 3:
             # continue
-        
-
-        # Guardian in a compound statement 
-        if len(words) < 3 or words[0] != "From":
-            # print("Ignore")
-             
+        # Guardian in a compound statement                  # guardian to keep
+        if len(word_list) < 3 or word_list[0] != "From":    # if length less than 3 or doesn't start with from, skip
+            # print("Ignore")   
             continue
-        count = count + 1 
-        print(words[1])
-    print("There were", count, "lines in the file with From as the first word")
+        count = count + 1                   # set counter here for proper count 
+        print(word_list[1])                 # print full address
+    print("There were", count, "lines in the file with From as the first word") 
 exercise_8_5()
+    

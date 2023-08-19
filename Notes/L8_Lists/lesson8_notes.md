@@ -874,6 +874,34 @@ Enter file: romeo.txt
 'with', 'yonder']
 ```
 
+```py
+def exercise_8_4():
+
+    """
+    1. Open the file romeo.txt and read it line by line.
+    2. For each line, split the line into a list of words using the split() method.
+    3. The program should build a list of words. 
+    4. For each word on each line check to see if the word is already in the list and 
+       if not append it to the list.
+    5. When the program completes, sort and print the resulting words in python sort()
+       order as shown in the desired output.
+    """
+    
+    fname = input("Enter file name: ")         # user input, use romeo.txt
+    fhandle = open(fname, "r")                 # open and read file and store as handle
+    word_list = list()                         # create empty list for iteration
+    for line in fhandle:                       # iterate fhandle line by line  
+        words = line.split()                   # split line into list of words
+        #print(words)                          # check list of words 
+        for word in words:                     # iterate each word in list
+            if word in word_list: continue     # if word already exists, continue
+            word_list.append(word)             # if not, append the word to empty list
+    word_list.sort()                           # sort the final list of words 
+    print(word_list)                           # print resulting words 
+    
+# exercise_8_4()
+```
+
 ### [Graded Assignment] Exercise 5
 
 Accept and complete the assignment in the Github Classroom. Minimalist Email Client.
@@ -905,6 +933,45 @@ There were 27 lines in the file with From as the first word
 ```
 Video: Lists, Files, and the Guardian Pattern
 ### <https://www.youtube.com/watch?v=WU6_0A9zYRA>
+
+```py
+def exercise_8_5():
+    """
+    1. Open the file mbox-short.txt and read it line by line. 
+    2. When you find a line that starts with 'From ' like the following line:
+        `From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008`
+    3. Parse the From line using split()
+    4. Print out the second word in the line (entire address of person who sent msg)
+    5. Print the count at the end
+    Hint: Make sure not to include the lines that start with "From:".
+          Look at last line of sample output to see how to print the count:
+          `There were 27 lines in the file with From as the first word`
+    """
+
+    fhandle = open("mbox-short.txt")        # Open file mbox-short.txt
+    count = 0                               # initialize count to 0 
+    word_list = list()                      # creat empty words_list
+    for line in fhandle:                    # iterate each line in fhandle
+        line = line.rstrip()                # strip whitespace 
+        # print("Line:", line)              # debug: check lines
+        # Guardian to skip blank lines      # debug: guardian for blank lines
+        # if line == "":
+            # print("Skip Blank")
+            # continue
+        word_list = line.split()            # split word_list 
+        # print("Debug:", word_list)        # debug: word_list
+        # Guardian a bit stronger           # debug: guardian to skip words < 3
+        # if len(word_list) < 3:
+            # continue
+        # Guardian in a compound statement                  # guardian to keep
+        if len(word_list) < 3 or word_list[0] != "From":    # if length less than 3 or doesn't start with from, skip
+            # print("Ignore")   
+            continue
+        count = count + 1                   # set counter here for proper count 
+        print(word_list[1])                 # print full address
+    print("There were", count, "lines in the file with From as the first word") 
+# exercise_8_5()
+```
 
 ### Exercise 6
 
