@@ -38,6 +38,6 @@ def exercise_8_5():
              
             continue
         count = count + 1 
-        print(words[2])
+        print(words[1])
     print("There were", count, "lines in the file with From as the first word")
 exercise_8_5()
