@@ -27,7 +27,7 @@ We look at Python's simplest data structure - the list. Lists can store more tha
     - [\[Graded Assignment\] Exercise 4](#graded-assignment-exercise-4)
     - [\[Graded Assignment\] Exercise 5](#graded-assignment-exercise-5)
     - [https://www.youtube.com/watch?v=WU6\_0A9zYRA](#httpswwwyoutubecomwatchvwu6_0a9zyra)
-    - [Exercise 6](#exercise-6)
+    - [Exercise 6 \*\*\*](#exercise-6-)
 
 
 ## A List is a Sequence
@@ -973,7 +973,7 @@ def exercise_8_5():
 # exercise_8_5()
 ```
 
-### Exercise 6
+### Exercise 6 ***
 
 Rewrite the program that prompts the user for a list of numbers and prints out the maximum and minimum of the numbers at the end when the user enters "done". Write the program to store the numbers the user enters in a list and use the `max()` and `min()` functions to compute the maximum and minimum numbers after the loop completes.
 
