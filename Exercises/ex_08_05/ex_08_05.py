@@ -5,7 +5,9 @@ for line in fhandle:
     line = line.rstrip()
     words = line.split()
     print('Debug:', words)
-    if words[0] != "From": continue 
+    if words[0] != "From":
+        print("Ignore")
+        continue 
     print(words[2])
 
 # fhand = open('mbox-short.txt')
