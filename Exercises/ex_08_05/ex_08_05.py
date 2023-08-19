@@ -12,10 +12,11 @@ for line in fhandle:
     #     continue
     words = line.split()
     #print('Debug:', words)
-    # Guardian
-    if len(words) < 3:
-         continue
-    if words[0] != "From":
+    # Guardian a bit stronger
+    # if len(words) < 3:
+    #      continue
+    # Guardian in a compound statement
+    if len(words) < 3 or words[0] != "From":
         # print("Ignore")
         continue 
     print(words[2])
