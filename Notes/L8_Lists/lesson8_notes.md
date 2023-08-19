@@ -2,6 +2,34 @@
 
 We look at Python's simplest data structure - the list. Lists can store more than one item in a variable.
 
+- [Lists](#lists)
+  - [A List is a Sequence](#a-list-is-a-sequence)
+    - [https://www.youtube.com/watch?v=ljExWqnWQvo](#httpswwwyoutubecomwatchvljexwqnwqvo)
+  - [Lists are Mutable](#lists-are-mutable)
+  - [Traversing a List](#traversing-a-list)
+  - [List Operations](#list-operations)
+    - [https://www.youtube.com/watch?v=bV1FQUBIApM](#httpswwwyoutubecomwatchvbv1fqubiapm)
+  - [List Slices](#list-slices)
+  - [List Methods](#list-methods)
+  - [Deleting Elements](#deleting-elements)
+  - [Lists and Functions](#lists-and-functions)
+  - [Lists and Strings](#lists-and-strings)
+  - [Parsing Lines](#parsing-lines)
+  - [Objects and Values](#objects-and-values)
+  - [Aliasing](#aliasing)
+  - [List Arguments](#list-arguments)
+    - [Exercise 1](#exercise-1)
+  - [Debugging](#debugging)
+    - [Exercise 2](#exercise-2)
+    - [Exercise 3 \*\*\*](#exercise-3-)
+  - [Glossary](#glossary)
+  - [Exercises](#exercises)
+    - [\[Graded Assignment\] Exercise 4](#graded-assignment-exercise-4)
+    - [\[Graded Assignment\] Exercise 5](#graded-assignment-exercise-5)
+    - [https://www.youtube.com/watch?v=WU6\_0A9zYRA](#httpswwwyoutubecomwatchvwu6_0a9zyra)
+    - [Exercise 6](#exercise-6)
+
+
 ## A List is a Sequence
 
 Video: Lists - Part 1
