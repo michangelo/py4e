@@ -14,7 +14,8 @@ def exercise_7_2():
         if not line.startswith("X-DSPAM-Confidence:"):
             continue
         count = count + 1
-        spam = spam + float(line[-7:].rstrip()) # float `line` and remove whitespace
+        spam = spam + float(line[-7:]) #.rstrip()) # float `line` and remove whitespace
         avg_spam = spam/count      
     print('Average spam confidence:', avg_spam)
 exercise_7_2()
+
