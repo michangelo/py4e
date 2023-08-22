@@ -6,6 +6,8 @@ Main Instructor: Shannon Landin
 Tech Guy: Gil
 PY4E instructor: Juan
 
+online and offline algorithms
+
 ```py
 for line in fh:
 # N lines in the file, M characters in each line
@@ -23,9 +25,6 @@ fstr = fh.read()
 
 Terminal 
 
-- echo "mbox-short.txt" | py ex_0_0 
-
-
+- echo "mbox-short.txt" | py ex_0_0
 
 1300 - 1400 break
-

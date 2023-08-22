@@ -112,11 +112,28 @@
 #     count = count + 1 
 # print('Line Count:', count)
 
-fhand = open('mbox-short.txt')
-count = 0
+# fhand = open('mbox-short.txt')
+# count = 0
+# for line in fhand:
+#     words = line.split()
+#     # print('Debug:', words)
+#     if len(words) == 0 : continue
+#     if words[0] != 'From' : continue
+#     print(words[2])
+
+fname = input('Enter the file name: ')
+try: 
+    fhand = open(fname) 
+except:
+    print('File cannot be opened:', fname)
+    exit()
+
+counts = dict()
 for line in fhand:
     words = line.split()
-    # print('Debug:', words)
-    if len(words) == 0 : continue
-    if words[0] != 'From' : continue
-    print(words[2])
+    for word in words:
+        if word not in counts:
+            counts[word] = 1 
+        else:
+            counts[word] +=1 
+print(counts)
