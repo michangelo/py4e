@@ -20,6 +20,7 @@ def exercise_4_6():
     
     # logic into function and print 
     p = computepay(h,r)
-    print("Pay", p)
+    return ("Pay", p)
 
-# exercise_4_6()
+exercise_4_6()
+
